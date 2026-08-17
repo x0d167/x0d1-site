@@ -1,0 +1,55 @@
+baseURL = 'https://x0d1.com'
+locale = 'en-us'
+title = "grip I. thinking..."
+theme = "enervoid"
+
+[menus]
+[[menus.main]]
+name = 'about'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'words'
+pageRef = '/words'
+weight = 20
+
+[[menus.main]]
+name = 'misc'
+pageRef = '/misc'
+weight = 30
+
+[params]
+avatar = "https://picsum.photos/200"
+
+[[params.socials]]
+link = "https://github.com/yourgithub"
+icon = "devicon-github-original"
+[[params.socials]]
+link = "https://twitter.com/yourx"
+icon = "devicon-twitter-original"
+[[params.socials]]
+link = "https://linkedin.in/yourlinkedin"
+icon = "devicon-linkedin-plain"
+[[params.socials]]
+link = "https://itch.io/profile/youritch"
+icon = "fa-brands fa-itch-io"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$'], ['\\[', '\\]']]
+inline = [['$', '$'], ['\\(', '\\)']]
+
+[markup.goldmark.parser]
+[markup.goldmark.parser.attribute]
+block = true
+
+[markup.highlight]
+noClasses = true
+codeFences = true
+guessSyntax = true
+tabWidth = 4
+style = "monokai"

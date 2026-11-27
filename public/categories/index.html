@@ -3,26 +3,41 @@
   lang="en-us"
   dir="ltr"
 >
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <link rel="icon" type="image/png" href="/avatar.png">
 <title>Categories</title>
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
   integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
 
   .font-jersey {
-
     font-family: "Ubuntu Sans Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
   }
 
+  .md-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.75;
+  }
+
+  .md-content p:last-child {
+    margin-bottom: 0;
+  }
 
   .md-content .katex-display {
     max-width: 100%;
@@ -33,7 +48,7 @@
     padding-right: 0.25rem;
   }
 
-  .md-content .katex-display>.katex {
+  .md-content .katex-display > .katex {
     display: inline-block;
     max-width: 100%;
   }
@@ -269,7 +284,7 @@
         
         <div class="flex items-center gap-3">
 
-          <a href='https://x0d1.com/' class="flex items-center gap-3 group" aria-label="Homepage">
+          <a href='http://localhost:1313/' class="flex items-center gap-3 group" aria-label="Homepage">
 
             <img src='https://picsum.photos/200' alt="grip I. thinking..."
               class="w-10 h-10 rounded-sm border-2 border-gray-700 object-cover transition-transform duration-300 transform group-hover:scale-105"
@@ -299,7 +314,7 @@
         </span>
       </a>
     </li><li>
-      <a href="/"class="group inline-flex items-center px-3 py-2 rounded-sm text-gray-200 hover:text-white transition-colors duration-200">
+      <a href="/words/"class="group inline-flex items-center px-3 py-2 rounded-sm text-gray-200 hover:text-white transition-colors duration-200">
         <span class="relative inline-block">
           <span>words</span>
           
@@ -353,7 +368,7 @@
         </span>
       </a>
     </li><li>
-      <a href="/"class="group inline-flex items-center px-3 py-2 rounded-sm text-gray-200 hover:text-white transition-colors duration-200">
+      <a href="/words/"class="group inline-flex items-center px-3 py-2 rounded-sm text-gray-200 hover:text-white transition-colors duration-200">
         <span class="relative inline-block">
           <span>words</span>
           

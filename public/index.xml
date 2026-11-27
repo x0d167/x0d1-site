@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>grip I. thinking...</title>
-		<link>https://x0d1.com/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content on grip I. thinking...</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,12 +10,21 @@
 		
 		
 		
-			<atom:link href="https://x0d1.com/index.xml" rel="self" type="application/rss+xml" />
+			<lastBuildDate>Thu, 26 Nov 2026 19:07:37 -0600</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Once Upon a Time</title>
+				<link>http://localhost:1313/words/once-upon-a-time/</link>
+				<pubDate>Thu, 26 Nov 2026 19:07:37 -0600</pubDate>
+				<guid>http://localhost:1313/words/once-upon-a-time/</guid>
+				<description>&lt;p&gt;Once upon a time, a boy wrote a great deal. He wrote every thought and day dream. He wrote flash stories, short stories, poetry, poorly written but passionate essays. The boy lived in his thoughts and he thought a great deal about a great deal until one day he stopped.&lt;/p&gt;&#xA;&lt;p&gt;I couldn&amp;rsquo;t tell you why. If, as I keep saying, how you write is how you think, then I haven&amp;rsquo;t done much writing since, and so I haven&amp;rsquo;t done much thinking since. I haven&amp;rsquo;t explored why it stopped. I don&amp;rsquo;t know what I have learned or entirely what was lost from that. What I do know is something has certainly been lost.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title></title>
-				<link>https://x0d1.com/about/</link>
+				<link>http://localhost:1313/about/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://x0d1.com/about/</guid>
+				<guid>http://localhost:1313/about/</guid>
 				<description>&lt;p&gt;I do stuff and things in ways. Often for reasons. Sometimes not.&lt;/p&gt;</description>
 			</item>
 	</channel>
